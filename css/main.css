@@ -144,7 +144,7 @@ margin:0 auto;
   padding: 100px 727px 100px 100px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .banner-title{
   padding-top: 5px;
