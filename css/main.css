@@ -182,14 +182,23 @@ margin-bottom:35px;
   text-decoration: none;
   font-size: 14px;
   border-radius: 5px;
-  padding: 20px 27px;
+  padding: 18px 25px;
   text-transform: uppercase;  
+  border: 1px solid #FBB731;
+}
+.banner-link:hover{
+  background-color: transparent;
+  color: #FBB731;
 }
 .menu-header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 34px;
+}
+.menu-grid-btn:hover{
+  background-color:#F37335;
+  cursor: pointer;
 }
 .menu-title{
 font-size: 44px;
@@ -294,6 +303,9 @@ height: 18px;
 .item {
   flex: 0 0 auto;
 }
+.item a:hover{
+  color:#FBB731
+}
 .item h2 {
   font-size: 20px;
   font-weight: 800;
@@ -301,11 +313,14 @@ height: 18px;
   margin-bottom: 12px;
   margin-top: 0;
 }
-.item ul,
-.tel ul {
+.footer-list ul,
+.footer-tel ul {
   list-style-type: none;
 }
-.item li {
+.footer-tel a:hover{
+  color: white;
+}
+.footer-list li {
   margin-bottom: 9px;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -313,23 +328,23 @@ height: 18px;
   font-weight: 700;
   line-height: 24px;
 }
-.item a {
+.footer-list a {
   color: #DEDEDE;
   text-decoration: none;
   font-weight: 400;
 }
-.item span {
+.footer-list span {
   color: #DEDEDE;
   display: block;
   font-weight: 400;
   margin-bottom: 2px;
 }
-.tel ul {
+.footer-tel ul {
   font-size: 20px;
   color: #FBB731;
   margin-top: 0;
 }
-.tel li {
+.footer-tel li {
   margin-bottom: 12px;
 }
 .footer-box{
@@ -338,5 +353,20 @@ height: 18px;
 }
 .footer-list{
   padding-left: 0;
-
+  list-style-type:none;
+}
+.header-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 68.5%;
+}
+.footer-list-tel{
+  margin-top: 0;
+}
+.footer-list-tel a{
+   font-size: 20px;
+   font-weight: 900;
+   margin-bottom: 2px;
+   color: #FBB731;
 }
