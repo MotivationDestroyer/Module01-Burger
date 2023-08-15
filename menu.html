@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <header>
+    <header id="header-top">
       <div class="container">
         <div class="header">
           <div class="header-item">
@@ -22,9 +22,9 @@
             <nav>
               <ul class="header-nav">
                 <li><a href="index.html" class="active">Главная</a></li>
-                <li><a href="#">Меню</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#menuBurger">Меню</a></li>
+                <li><a href="#aboutUs">О нас</a></li>
+                <li><a href="#aboutUs">Контакты</a></li>
               </ul>
             </nav>
           </div>
@@ -186,7 +186,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="aboutUs" class="footer">
       <div class="container">
         <footer class="footer-box">
           <div class="item">
@@ -228,5 +228,7 @@
         </footer>
       </div>
 </footer>
+<a href="#header-top" class="button-up hidden" id="btnUp">Наверх</a>
+<script src="/scripts/main.js"></script>
   </body>
 </html>
