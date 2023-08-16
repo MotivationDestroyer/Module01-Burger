@@ -141,7 +141,7 @@ margin:0 auto;
 .banner-box{
   background-image: url(../images/img.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: 0 center;
   padding: 100px 100px 120px;
   background-repeat: no-repeat;
   margin-bottom: 90px;
@@ -516,4 +516,37 @@ transition: 1s;
 }
 .button-up.hidden{
   opacity: 0;
+}
+
+/* responsive */
+
+@media (max-width: 1000px){
+  .container{
+    max-width: 738px;
+  }
+  .header-logo{
+    width: 150px;
+    height: 48px;
+    background-size: contain;
+  }
+  .header-nav{
+    gap: 22px;
+  }
+  .header-item{
+    flex-basis: 75.5%;
+  }
+  .bg{
+    margin-bottom: 72px;
+  }
+  .banner-box{
+    background-position: -88px center;
+    padding: 100px 40px 120px;
+  }
+  .menu-grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 15px;
+  }
+  .footer-tel ul a {
+   font-size: 14px; 
+  }
 }
