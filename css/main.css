@@ -625,4 +625,7 @@ background-size: contain;
 nav{
   display: none;
 }
+.header{
+  gap: 21px;
+}
 }
