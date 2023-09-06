@@ -88,7 +88,7 @@ display: block;
 .bg{
   text-align: center;
   color: #FFFFFF;
-  background-image: url(../images/Group\ 3.jpg);
+  background-image: url(../images/Group/3.jpg);
   background-size: cover;
   background-position: center center;
   padding: 142px 0;
@@ -585,7 +585,7 @@ transition: 1s;
 .burger{
   width: 34px;
 height: 22px;
-background-image: url(/images/Menu-phone.svg);
+background-image: url(../images/Menu-phone.svg);
 border: none;
 background-color: transparent;
 cursor: pointer;
@@ -614,7 +614,7 @@ background-size: contain;
 .burger-close{
   width: 22px;
   height: 22px;
-  background-image: url(/images/close.svg);
+  background-image: url(../images/close.svg);
   background-size:contain;
   background-repeat: no-repeat;
   border: none;
