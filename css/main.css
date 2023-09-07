@@ -21,7 +21,7 @@ header{
 }
 .header-logo{
   display: block;
-  background-image: url(../images/Logo.svg);
+  background-image: url(../images/logo.svg);
   width: 176px;
   height: 56px;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ display: block;
 .bg{
   text-align: center;
   color: #FFFFFF;
-  background-image: url(../images/Group/3.jpg);
+  background-image: url(../images/burger-main-bg.jpg);
   background-size: cover;
   background-position: center center;
   padding: 142px 0;
@@ -137,7 +137,7 @@ margin:0 auto;
   margin-bottom: 100px;
 }
 .banner-box{
-  background-image: url(../images/img.jpg);
+  background-image: url(../images/burger-secondary-bg.jpg);
   background-size: cover;
   background-position: 0 center;
   padding: 100px 100px 120px;
@@ -585,7 +585,7 @@ transition: 1s;
 .burger{
   width: 34px;
 height: 22px;
-background-image: url(../images/Menu-phone.svg);
+background-image: url(../images/menu-button.svg);
 border: none;
 background-color: transparent;
 cursor: pointer;
@@ -614,7 +614,7 @@ background-size: contain;
 .burger-close{
   width: 22px;
   height: 22px;
-  background-image: url(../images/close.svg);
+  background-image: url(../images/menu-close.svg);
   background-size:contain;
   background-repeat: no-repeat;
   border: none;
