@@ -583,11 +583,11 @@ h1 span {
     margin-right: -15px;
   }
   .menu-other .menu-grid-item {
-    flex: 0 0 281px;
+    flex: 0 0 45vw;
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 320px;
+    height: 100vw;
   }
 }
 /* modal */
@@ -635,7 +635,11 @@ h1 span {
 }
 @media (max-width:769px) {
   .menu-other .menu-grid-item {
-    flex: 0 0 38vw;
+    flex: 0 0 75vw;
+    background-size: contain;
+  }
+  .menu-grid-cover{
+    height: 78vw;
   }
   .footer-list-tel{
     display: none;
@@ -653,6 +657,27 @@ h1 span {
   .header-logo{
     width: 116px;
     height: 37px;
+  }
+  .menu-grid-title{
+    color: #1B2A49;
+text-align: center;
+font-size: 13px;
+font-weight: 700;
+  }
+  .menu-grid-price{
+    width: 140px;
+    font-size: 16px;
+    margin: 9px auto;
+    /*добавил margin, чтобы цена была посередине*/
+  }
+  /* вопрос 1
+  .menu-grid-item{
+    width: 130px;
+  }
+  */
+  
+  .menu-grid-cover img{
+    height: 100%;
   }
   .title{
     font-size: 38px;
@@ -678,9 +703,7 @@ h1 span {
     height: 73px;
     width: 247px;
   }
-  .menu-grid-cover{
-    height: 60vw;
-  }
+ 
   .menu-select{
     /*значения top немного не совпадает т.к. картинка с бургером перекрывала бы текст*/
     padding: 8px 30px 8px 15px;
