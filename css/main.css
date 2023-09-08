@@ -633,11 +633,75 @@ h1 span {
   right: 20px;
   cursor: pointer;
 }
+@media (max-width:769px) {
+  .menu-other .menu-grid-item {
+    flex: 0 0 38vw;
+  }
+  .footer-list-tel{
+    display: none;
+  }
+}
 @media (max-width: 765px) {
   nav {
     display: none;
   }
   .header {
     gap: 21px;
+  }
+}
+@media (max-width:321px) {
+  .header-logo{
+    width: 116px;
+    height: 37px;
+  }
+  .title{
+    font-size: 38px;
+    line-height: normal;
+  }
+  .breadcrumbs{
+    font-size: 14px;
+  }
+  .description{
+    font-size: 12px;
+  }
+  .bg{
+    background-repeat: no-repeat;
+    /* background-clip: content-box;*/
+  }
+  .banner-box{
+    background-position-x:20%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+  }
+  .banner-text{
+    height: 73px;
+    width: 247px;
+  }
+  .menu-grid-cover{
+    height: 60vw;
+  }
+  .menu-select{
+    /*значения top немного не совпадает т.к. картинка с бургером перекрывала бы текст*/
+    padding: 8px 30px 8px 15px;
+    font-size: 12px;
+    flex-basis:unset;
+  }
+  .menu-title{
+    font-size: 27px;
+  }
+  .footer{
+    padding-top: 61px;
+    padding-bottom: 61px;
+  }
+  .footer-list-tel{
+    display: none;
+  }
+  .footer-box{
+    flex-direction: column;
+    gap: 33px;
+  }
+  .footer-box h2{
+    font-size: 18px;
   }
 }
