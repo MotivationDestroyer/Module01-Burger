@@ -655,6 +655,21 @@ h1 span {
     gap: 21px;
   }
 }
+@media (max-width: 636px) {
+  /*коммент: добавил оптимизацию*/
+  .footer-box {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 434px) {
+  /*коммент: добавил оптимизацию для текста, а то слишком большой получается на этом моменте*/
+  .menu-title {
+    font-size: 29px;
+  }
+}
 @media (max-width: 321px) {
   .header-logo {
     width: 116px;
@@ -672,12 +687,15 @@ h1 span {
     margin: 9px auto;
     /*коммент: добавил margin, чтобы цена была посередине*/
   }
-  /*коммент: вопрос 1
-  .menu-grid-item{
+  /*коммент: вопрос 2
+  тут 2 блока item и btn
+  */
+  .menu-grid-item {
     width: 130px;
   }
-  */
-
+  .menu-grid-btn {
+    padding: 10px 20px;
+  }
   .menu-grid-cover img {
     height: 100%;
   }
