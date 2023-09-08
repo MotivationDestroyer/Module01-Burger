@@ -532,7 +532,7 @@ h1 span {
   .footer-list-second {
     display: none;
   }
-  .footer-list-tel{
+  .footer-list-tel {
     margin-top: 13px;
     /*добавил*/
   }
@@ -541,7 +541,7 @@ h1 span {
   .footer-list-first {
     display: none;
   }
-    /*поменял с 1001 на 1002*/
+  /*поменял с 1001 на 1002*/
 }
 @media (max-width: 1000px) {
   .container {
@@ -633,15 +633,15 @@ h1 span {
   right: 20px;
   cursor: pointer;
 }
-@media (max-width:769px) {
+@media (max-width: 769px) {
   .menu-other .menu-grid-item {
     flex: 0 0 75vw;
     background-size: contain;
   }
-  .menu-grid-cover{
+  .menu-grid-cover {
     height: 78vw;
   }
-  .footer-list-tel{
+  .footer-list-tel {
     display: none;
   }
 }
@@ -653,18 +653,18 @@ h1 span {
     gap: 21px;
   }
 }
-@media (max-width:321px) {
-  .header-logo{
+@media (max-width: 321px) {
+  .header-logo {
     width: 116px;
     height: 37px;
   }
-  .menu-grid-title{
-    color: #1B2A49;
-text-align: center;
-font-size: 13px;
-font-weight: 700;
+  .menu-grid-title {
+    color: #1b2a49;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
   }
-  .menu-grid-price{
+  .menu-grid-price {
     width: 140px;
     font-size: 16px;
     margin: 9px auto;
@@ -675,56 +675,56 @@ font-weight: 700;
     width: 130px;
   }
   */
-  
-  .menu-grid-cover img{
+
+  .menu-grid-cover img {
     height: 100%;
   }
-  .title{
+  .title {
     font-size: 38px;
     line-height: normal;
   }
-  .breadcrumbs{
+  .breadcrumbs {
     font-size: 14px;
   }
-  .description{
+  .description {
     font-size: 12px;
   }
-  .bg{
+  .bg {
     background-repeat: no-repeat;
     /* background-clip: content-box;*/
   }
-  .banner-box{
-    background-position-x:20%;
+  .banner-box {
+    background-position-x: 20%;
     padding-top: 50px;
     padding-bottom: 60px;
     padding-left: 30px;
   }
-  .banner-text{
+  .banner-text {
     height: 73px;
     width: 247px;
   }
- 
-  .menu-select{
+
+  .menu-select {
     /*значения top немного не совпадает т.к. картинка с бургером перекрывала бы текст*/
     padding: 8px 30px 8px 15px;
     font-size: 12px;
-    flex-basis:unset;
+    flex-basis: unset;
   }
-  .menu-title{
+  .menu-title {
     font-size: 27px;
   }
-  .footer{
+  .footer {
     padding-top: 61px;
     padding-bottom: 61px;
   }
-  .footer-list-tel{
+  .footer-list-tel {
     display: none;
   }
-  .footer-box{
+  .footer-box {
     flex-direction: column;
     gap: 33px;
   }
-  .footer-box h2{
+  .footer-box h2 {
     font-size: 18px;
   }
 }
