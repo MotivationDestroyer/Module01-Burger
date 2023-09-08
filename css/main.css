@@ -534,14 +534,14 @@ h1 span {
   }
   .footer-list-tel {
     margin-top: 13px;
-    /*добавил*/
+    /*коммент: добавил*/
   }
 }
 @media (min-width: 1002px) {
   .footer-list-first {
     display: none;
   }
-  /*поменял с 1001 на 1002*/
+  /*коммент: поменял с 1001 на 1002*/
 }
 @media (max-width: 1000px) {
   .container {
@@ -579,15 +579,15 @@ h1 span {
     overflow-y: hidden;
     overflow-x: scroll;
     padding-bottom: 50px;
-    /* добавил margin-right */
+    /*коммент: добавил margin-right */
     margin-right: -15px;
   }
   .menu-other .menu-grid-item {
-    flex: 0 0 45vw;
+    flex: 0 0 36vw;
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 100vw;
+    height: 32vw;
   }
 }
 /* modal */
@@ -635,11 +635,13 @@ h1 span {
 }
 @media (max-width: 769px) {
   .menu-other .menu-grid-item {
-    flex: 0 0 75vw;
+    /*коммент: изменил значение flex*/
+    flex: 0 0 40vw;
     background-size: contain;
   }
   .menu-grid-cover {
-    height: 78vw;
+    /*коммент: изменил значение*/
+    height: 60vw;
   }
   .footer-list-tel {
     display: none;
@@ -668,9 +670,9 @@ h1 span {
     width: 140px;
     font-size: 16px;
     margin: 9px auto;
-    /*добавил margin, чтобы цена была посередине*/
+    /*коммент: добавил margin, чтобы цена была посередине*/
   }
-  /* вопрос 1
+  /*коммент: вопрос 1
   .menu-grid-item{
     width: 130px;
   }
@@ -703,9 +705,22 @@ h1 span {
     height: 73px;
     width: 247px;
   }
-
+  .menu-other {
+    /*коммент: убрал*/
+    overflow: unset;
+    height: unset;
+  }
+  .menu-other .menu-grid-cover,
+  .menu-other .menu-grid-cover img {
+    height: 56vw;
+  }
+  .menu-other .menu-grid-item {
+    /*коммент: изменил для того чтобы было видно 3 блок*/
+    flex: 0 0 56vw;
+    background-size: contain;
+  }
   .menu-select {
-    /*значения top немного не совпадает т.к. картинка с бургером перекрывала бы текст*/
+    /*коммент: значения top немного не совпадает т.к. картинка с бургером перекрывала бы текст*/
     padding: 8px 30px 8px 15px;
     font-size: 12px;
     flex-basis: unset;
