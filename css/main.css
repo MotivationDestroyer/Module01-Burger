@@ -6,7 +6,9 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 10px;
+  /* коммент: убрал ненужный padding
+    padding-top: 10px;
+  */
 }
 header {
   border-bottom: 1px solid #dedede;
@@ -399,7 +401,8 @@ h1 {
   font-size: 120px;
   font-weight: 800;
   text-transform: uppercase;
-  line-height: 120px;
+  /*коммент2: поменял с 120px на 1.2*/
+  line-height: 1.2;
   margin-bottom: 40px;
   margin-top: 0;
 }
@@ -536,6 +539,9 @@ h1 span {
     margin-top: 13px;
     /*коммент: добавил*/
   }
+  .menu-grid-cover img {
+    height: 100%;
+  }
 }
 @media (min-width: 1002px) {
   .footer-list-first {
@@ -665,8 +671,18 @@ h1 span {
     font-size: 40px;
   }
 }
+/* коммент2: добавил блок mw:551px + d 434px добавил тоже самое, только шрифт как в макете*/
+@media (max-width: 551px) {
+  .menu-grid-title {
+    font-size: 23px;
+  }
+}
+
 @media (max-width: 434px) {
   /*коммент: добавил оптимизацию для текста, а то слишком большой получается на этом моменте*/
+  .menu-grid-title {
+    font-size: 13px;
+  }
   .menu-title {
     font-size: 29px;
   }
@@ -688,18 +704,22 @@ h1 span {
     margin: 9px auto;
     /*коммент: добавил margin, чтобы цена была посередине*/
   }
-  /*коммент: вопрос 2
-  тут 2 блока item и btn
-  */
-  .menu-grid-item {
-    width: 130px;
+  .menu-grid {
+    /* коммент2: убрал изменение размера карточки бургеров, изменил gap, как и должно было быть */
+    gap: 24px 12px;
   }
+
   .menu-grid-btn {
     padding: 10px 20px;
   }
-  .menu-grid-cover img {
+  /*
+  коммент2:
+  переместил этот блок в 1001px
+    .menu-grid-cover img {
     height: 100%;
   }
+  */
+
   .title {
     font-size: 38px;
     line-height: normal;
