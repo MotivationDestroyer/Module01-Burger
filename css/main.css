@@ -594,7 +594,7 @@ h1 span {
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 32vw;
+    height: 60vw;
   }
 }
 /* modal */
@@ -687,6 +687,14 @@ h1 span {
     font-size: 29px;
   }
 }
+/* коммент2: заметил что в макете должно быть gap 11 между карточками из дополнительно.
+Если ставить 11, то блоки особо не будут "показываться",
+ поэтому я поставил 5px и сейчас 3-й блок немного видно*/
+@media (max-width:331px) {
+  .menu-grid-additionally{
+    gap: 40px 5px;
+  }
+}
 @media (max-width: 321px) {
   .header-logo {
     width: 116px;
@@ -751,11 +759,11 @@ h1 span {
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 56vw;
+    height: 60vw;
   }
   .menu-other .menu-grid-item {
     /*коммент: изменил для того чтобы было видно 3 блок*/
-    flex: 0 0 56vw;
+
     background-size: contain;
   }
   .menu-select {
