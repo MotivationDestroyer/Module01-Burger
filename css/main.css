@@ -590,11 +590,11 @@ h1 span {
     margin-right: -15px;
   }
   .menu-other .menu-grid-item {
-    flex: 0 0 36vw;
+    flex: 0 0 27vw;
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 60vw;
+    height: 33vw;
   }
 }
 /* modal */
@@ -641,10 +641,14 @@ h1 span {
   cursor: pointer;
 }
 @media (max-width: 769px) {
+
   .menu-other .menu-grid-item {
-    /*коммент: изменил значение flex*/
-    flex: 0 0 40vw;
+    /*коммент2: изменил значение flex и ниже heigh 41vw*/
+    flex: 0 0 30vw;
     background-size: contain;
+  }
+  .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img{
+    height: 41vw;
   }
   .menu-grid-cover {
     /*коммент: изменил значение*/
@@ -662,6 +666,11 @@ h1 span {
     gap: 21px;
   }
 }
+@media (max-width: 722px) {
+.menu-grid-title{
+  font-size: 24px;
+}
+}
 @media (max-width: 636px) {
   /*коммент: добавил оптимизацию*/
   .footer-box {
@@ -674,7 +683,7 @@ h1 span {
 /* коммент2: добавил блок mw:551px + d 434px добавил тоже самое, только шрифт как в макете*/
 @media (max-width: 551px) {
   .menu-grid-title {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
