@@ -578,14 +578,15 @@ h1 span {
   }
   .menu-other {
     overflow: hidden;
-    height: 558px;
+    height: 120vw;
   }
   .menu-other .menu-grid {
     display: flex;
     width: auto;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding-bottom: 50px;
+    height: 83vw;
+    padding-bottom: 65px;
     /*коммент: добавил margin-right */
     margin-right: -15px;
   }
@@ -770,11 +771,6 @@ h1 span {
   .banner-text {
     height: 73px;
     width: 247px;
-  }
-  .menu-other {
-    /*коммент: убрал*/
-    overflow: unset;
-    height: unset;
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
