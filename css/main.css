@@ -677,10 +677,15 @@ h1 span {
   /*коммент: добавил оптимизацию*/
   .footer-box {
     flex-direction: column;
+    gap: 55px;
+  }
+  .item h2{
+    margin-bottom: 20px;
   }
   .title {
     font-size: 40px;
   }
+  
 }
 /* коммент2: добавил блок mw:551px + d 434px добавил тоже самое, только шрифт как в макете*/
 @media (max-width: 551px) {
