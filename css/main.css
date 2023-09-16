@@ -578,24 +578,40 @@ h1 span {
   }
   .menu-other {
     overflow: hidden;
-    height: 120vw;
+    /*
+    коммент4: добавил убрал из-за проблем с адаптацией
+        height: 120vw;
+    */
   }
   .menu-other .menu-grid {
     display: flex;
     width: auto;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 83vw;
+       /*
+    коммент4: убрал этот блок т.к. это попросту не нужно и дает проблемы в адаптиции
+        height: 83vw;
+    */
     padding-bottom: 65px;
     /*коммент: добавил margin-right */
     margin-right: -15px;
   }
   .menu-other .menu-grid-item {
-    flex: 0 0 25vw;
+    flex: 0 0 24vw;
   }
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
     height: 33vw;
+  }
+  .menu-grid-additionally{
+    /*коммент4: добавил mb:0 т.к. нижний отступ переходящий из другого класса тут не нужен*/
+    margin-bottom: 0;
+  }
+}
+@media (max-width:861) {
+  /*коммент4: попытка исправить скукоживание блока "дополнительное"*/
+  .menu-other {
+    flex: 0 0 30vw;
   }
 }
 /* modal */
