@@ -550,9 +550,6 @@ h1 span {
   /*коммент: поменял с 1001 на 1002*/
 }
 @media (max-width: 1000px) {
-  .container {
-    max-width: 738px;
-  }
   .header-logo {
     width: 150px;
     height: 48px;
@@ -596,12 +593,14 @@ h1 span {
     /*коммент: добавил margin-right */
     margin-right: -15px;
   }
+/*было 24vw*/
   .menu-other .menu-grid-item {
-    flex: 0 0 24vw;
+    flex: 0 0 39vw;
   }
+  /*было 33vw*/
   .menu-other .menu-grid-cover,
   .menu-other .menu-grid-cover img {
-    height: 33vw;
+    height: 42vw;
   }
   .menu-grid-additionally{
     /*коммент4: добавил mb:0 т.к. нижний отступ переходящий из другого класса тут не нужен*/
@@ -661,7 +660,7 @@ h1 span {
 
   .menu-other .menu-grid-item {
     /*коммент2: изменил значение flex и ниже heigh 41vw*/
-    flex: 0 0 30vw;
+    flex: 0 0 36vw;
     background-size: contain;
   }
   .menu-other .menu-grid-cover,
