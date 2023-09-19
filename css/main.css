@@ -607,7 +607,7 @@ h1 span {
     margin-bottom: 0;
   }
   /* тута */
-  .menu-grid::-webkit-scrollbar { width: 0; }
+  .menu-grid::-webkit-scrollbar { display: none; }
 }
 @media (max-width:861) {
   /*коммент4: попытка исправить скукоживание блока "дополнительное"*/
