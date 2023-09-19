@@ -608,6 +608,9 @@ h1 span {
   }
   /* тута */
   .menu-grid::-webkit-scrollbar { display: none; }
+  .menu-grid-additionally{
+    padding-right: 15px;
+  }
 }
 @media (max-width:861) {
   /*коммент4: попытка исправить скукоживание блока "дополнительное"*/
