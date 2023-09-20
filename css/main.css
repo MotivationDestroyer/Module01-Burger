@@ -605,12 +605,10 @@ h1 span {
   .menu-grid-additionally{
     /*коммент4: добавил mb:0 т.к. нижний отступ переходящий из другого класса тут не нужен*/
     margin-bottom: 0;
+    padding-right: 15px;
   }
   /* тута */
   .menu-grid::-webkit-scrollbar { display: none; }
-  .menu-grid-additionally{
-    padding-right: 15px;
-  }
 }
 @media (max-width:861) {
   /*коммент4: попытка исправить скукоживание блока "дополнительное"*/
