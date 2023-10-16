@@ -585,7 +585,7 @@ h1 span {
     width: auto;
     overflow-y: hidden;
     overflow-x: scroll;
-       /*
+    /*
     коммент4: убрал этот блок т.к. это попросту не нужно и дает проблемы в адаптиции
         height: 83vw;
     */
@@ -593,7 +593,7 @@ h1 span {
     /*коммент: добавил margin-right */
     margin-right: -15px;
   }
-/*было 24vw*/
+  /*было 24vw*/
   .menu-other .menu-grid-item {
     flex: 0 0 39vw;
   }
@@ -602,15 +602,17 @@ h1 span {
   .menu-other .menu-grid-cover img {
     height: 42vw;
   }
-  .menu-grid-additionally{
+  .menu-grid-additionally {
     /*коммент4: добавил mb:0 т.к. нижний отступ переходящий из другого класса тут не нужен*/
     margin-bottom: 0;
     padding-right: 15px;
   }
   /* тута */
-  .menu-grid::-webkit-scrollbar { display: none; }
+  .menu-grid::-webkit-scrollbar {
+    display: none;
+  }
 }
-@media (max-width:861) {
+@media (max-width: 861) {
   /*коммент4: попытка исправить скукоживание блока "дополнительное"*/
   .menu-other {
     flex: 0 0 30vw;
@@ -660,14 +662,13 @@ h1 span {
   cursor: pointer;
 }
 @media (max-width: 769px) {
-
   .menu-other .menu-grid-item {
     /*коммент2: изменил значение flex и ниже heigh 41vw*/
     flex: 0 0 36vw;
     background-size: contain;
   }
   .menu-other .menu-grid-cover,
-   .menu-other .menu-grid-cover img{
+  .menu-other .menu-grid-cover img {
     height: 41vw;
   }
   .menu-grid-cover {
@@ -687,9 +688,9 @@ h1 span {
   }
 }
 @media (max-width: 722px) {
-.menu-grid-title{
-  font-size: 24px;
-}
+  .menu-grid-title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 636px) {
   /*коммент: добавил оптимизацию*/
@@ -697,13 +698,12 @@ h1 span {
     flex-direction: column;
     gap: 55px;
   }
-  .item h2{
+  .item h2 {
     margin-bottom: 20px;
   }
   .title {
     font-size: 40px;
   }
-  
 }
 /* коммент2: добавил блок mw:551px + d 434px добавил тоже самое, только шрифт как в макете*/
 @media (max-width: 551px) {
@@ -711,20 +711,21 @@ h1 span {
     font-size: 20px;
   }
 }
-@media (max-width:436px) {
-  .menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
+@media (max-width: 436px) {
+  .menu-other .menu-grid-cover,
+  .menu-other .menu-grid-cover img {
     height: 60vw;
-}
-.footer-box{
-  position: relative;
-}
-.footer-list-first{
-  display: unset;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 0;
-}
+  }
+  .footer-box {
+    position: relative;
+  }
+  .footer-list-first {
+    display: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+  }
 }
 @media (max-width: 434px) {
   /*коммент: добавил оптимизацию для текста, а то слишком большой получается на этом моменте*/
@@ -735,13 +736,14 @@ h1 span {
     font-size: 29px;
   }
 }
-@media (max-width:349px) {
+@media (max-width: 349px) {
   .menu-grid {
     gap: 40px 5px;
-}
-.menu-other .menu-grid-cover, .menu-other .menu-grid-cover img {
-  height: 60vw;
-}
+  }
+  .menu-other .menu-grid-cover,
+  .menu-other .menu-grid-cover img {
+    height: 60vw;
+  }
 }
 @media (max-width: 321px) {
   .header-logo {
@@ -767,7 +769,7 @@ h1 span {
   /* коммент2: заметил что в макете должно быть gap 11 между карточками из дополнительно.
 Если ставить 11, то блоки особо не будут "показываться",
  поэтому я поставил 5px и сейчас 3-й блок немного видно*/
-  .menu-grid-additionally{
+  .menu-grid-additionally {
     gap: 24px 5px;
   }
   .menu-grid-btn {
